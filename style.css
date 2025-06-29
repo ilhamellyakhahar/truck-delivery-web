@@ -18,7 +18,7 @@ h2 {
 
 footer {
   letter-spacing: 1px;
-  background-color: #1d3b3b;
+  background-color: #01304b;
   color: #fff;
   padding: 5px 0;
   text-align: center;
@@ -46,7 +46,7 @@ footer a:hover {
 }
 
 #hero-about {
-  background: url('https://www.lalamove.com/hubfs/Apa%20Kelebihan%20Penggunaan%20Truk%20dalam%20Pengiriman%20Jarak%20Jauh_.jpg') center center/cover no-repeat;
+  background: url('image/bac-1.jpg') center center/cover no-repeat;
   min-height: 800px;
   position: relative;
   z-index: 1;
@@ -95,6 +95,11 @@ footer .container {
 
 #contact .card-body .d-flex {
   align-items: flex-start !important;
+}
+
+.dokumentasi-img {
+  height: 180px;
+  object-fit: cover;
 }
 
 @media (max-width: 991.98px) {
