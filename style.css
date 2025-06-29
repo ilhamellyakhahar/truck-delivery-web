@@ -1,0 +1,84 @@
+body {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.card-img-top {
+  height: 160px;
+  object-fit: cover;
+}
+
+footer {
+  letter-spacing: 1px;
+}
+
+#formAlert {
+  display: none;
+}
+
+.hero-img-custom {
+  max-width: 90%;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  border: 4px solid #fff;
+}
+
+#hero-about {
+  background: url('https://www.lalamove.com/hubfs/Apa%20Kelebihan%20Penggunaan%20Truk%20dalam%20Pengiriman%20Jarak%20Jauh_.jpg') center center/cover no-repeat;
+  min-height: 800px;
+  position: relative;
+  z-index: 1;
+  padding-top: 220px;
+  padding-bottom: 100px;
+}
+
+#hero-about::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 60, 120, 0.45);
+  z-index: 2;
+  display: block;
+}
+
+#hero-about .container, #hero-about .row, #hero-about .text-white, #hero-about .hero-img-custom {
+  position: relative;
+  z-index: 3;
+}
+
+.navbar {
+  margin-bottom: 60px;
+}
+
+.navbar.position-absolute {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991.98px) {
+  #hero-about {
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 40px;
+  }
+  .hero-img-custom {
+    margin-top: 24px;
+  }
+  .navbar {
+    margin-bottom: 40px;
+  }
+  .navbar.position-absolute {
+    margin-bottom: 40px;
+  }
+}
